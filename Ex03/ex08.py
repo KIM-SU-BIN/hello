@@ -1,4 +1,4 @@
-fruitList = ['red','orange','yellow','green','blue']
+dan = int(input("단: "))
 
-for index, color in enumerate(fruitList):
-    print(index, color)
+for i in range(1, 10):
+    print("{0} * {1} = {2}".format(dan, i, dan*i))
